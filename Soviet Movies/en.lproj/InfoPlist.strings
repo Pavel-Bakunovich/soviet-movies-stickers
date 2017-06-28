@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Soviet Movies
+
+  Created by Pavel Bakunovich on 28.06.17.
+  Copyright © 2017 Pavel Bakunovich. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "Soviet Movies";
