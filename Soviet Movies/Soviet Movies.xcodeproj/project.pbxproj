@@ -10,7 +10,8 @@
 		D55FADE61F03EC4100CF6C4B /* StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D55FADE51F03EC4100CF6C4B /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D55FADEA1F03EC4100CF6C4B /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = D55FADE91F03EC4100CF6C4B /* Stickers.xcstickers */; };
 		D55FADEB1F03EC4100CF6C4B /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = D55FADE91F03EC4100CF6C4B /* Stickers.xcstickers */; };
-		D55FADFE1F03F10600CF6C4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D55FAE001F03F10600CF6C4B /* InfoPlist.strings */; };
+		D55FAE0F1F03F70600CF6C4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D55FAE121F03F70600CF6C4B /* InfoPlist.strings */; };
+		D55FAE101F03F70600CF6C4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D55FAE121F03F70600CF6C4B /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,16 +42,16 @@
 		D55FADE11F03EC4100CF6C4B /* Soviet Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Soviet Movies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D55FADE51F03EC4100CF6C4B /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		D55FADE91F03EC4100CF6C4B /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
-		D55FADFF1F03F10600CF6C4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D55FAE011F03F11900CF6C4B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D55FAE111F03F70600CF6C4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D55FAE131F03F70800CF6C4B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		D55FADDA1F03EC4100CF6C4B = {
 			isa = PBXGroup;
 			children = (
+				D55FAE141F03F76B00CF6C4B /* Localization */,
 				D55FADE91F03EC4100CF6C4B /* Stickers.xcstickers */,
-				D55FAE001F03F10600CF6C4B /* InfoPlist.strings */,
 				D55FADE21F03EC4100CF6C4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +63,14 @@
 				D55FADE51F03EC4100CF6C4B /* StickerPackExtension.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D55FAE141F03F76B00CF6C4B /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				D55FAE121F03F70600CF6C4B /* InfoPlist.strings */,
+			);
+			name = Localization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D55FADEB1F03EC4100CF6C4B /* Stickers.xcstickers in Resources */,
-				D55FADFE1F03F10600CF6C4B /* InfoPlist.strings in Resources */,
+				D55FAE0F1F03F70600CF6C4B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D55FADEA1F03EC4100CF6C4B /* Stickers.xcstickers in Resources */,
+				D55FAE101F03F70600CF6C4B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,13 +176,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D55FAE001F03F10600CF6C4B /* InfoPlist.strings */ = {
+		D55FAE121F03F70600CF6C4B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D55FADFF1F03F10600CF6C4B /* en */,
-				D55FAE011F03F11900CF6C4B /* ru */,
+				D55FAE111F03F70600CF6C4B /* en */,
+				D55FAE131F03F70800CF6C4B /* ru */,
 			);
 			name = InfoPlist.strings;
+			path = "Soviet Movies";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
