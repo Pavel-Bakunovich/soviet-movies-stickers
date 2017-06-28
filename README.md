@@ -1,2 +1,2 @@
-# soviet-movies-stickers
+# Soviet Movies Stickers
 Soviet Movies Stickers for iOS
