@@ -344,6 +344,7 @@
 				D55FADF01F03EC4100CF6C4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D55FADF21F03EC4100CF6C4B /* Build configuration list for PBXNativeTarget "Soviet Movies" */ = {
 			isa = XCConfigurationList;
@@ -352,6 +353,7 @@
 				D55FADF41F03EC4100CF6C4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
